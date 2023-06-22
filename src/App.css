@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.pages_menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+}
+.app_inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  row-gap: 30px;
+}
+
+.block {
+  width: 70%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first {
+  background-color: aliceblue;
+}
+
+.second {
+  background-color: antiquewhite;
+}
+
+.selected {
+  color: green;
+}
